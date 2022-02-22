@@ -9,6 +9,7 @@ RUN printf "deb http://old-releases.ubuntu.com/ubuntu/ precise main restricted\n
     printf "deb http://old-releases.ubuntu.com/ubuntu/ precise multiverse\n" >> /etc/apt/sources.list && \
     printf "deb-src http://old-releases.ubuntu.com/ubuntu/ precise-updates multiverse\n" >>  /etc/apt/sources.list 
 
+#VOLUME ["/var/www"]
 
 RUN apt-get update && \
     apt-get install -y \
