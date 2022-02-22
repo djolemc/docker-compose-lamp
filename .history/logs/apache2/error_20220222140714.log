@@ -1,0 +1,67 @@
+apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.32.4 for ServerName
+[Tue Feb 22 10:33:19 2022] [notice] Apache/2.2.22 (Ubuntu) PHP/5.3.10-1ubuntu3.48 with Suhosin-Patch configured -- resuming normal operations
+[Tue Feb 22 10:33:31 2022] [error] [client 192.168.32.1] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'192.168.32.4' (using password: NO) in /var/www/html/index.php on line 34
+[Tue Feb 22 10:33:31 2022] [error] [client 192.168.32.1] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /var/www/html/index.php on line 44
+[Tue Feb 22 10:34:25 2022] [notice] caught SIGTERM, shutting down
+apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.48.4 for ServerName
+[Tue Feb 22 10:34:51 2022] [notice] Apache/2.2.22 (Ubuntu) PHP/5.3.10-1ubuntu3.48 with Suhosin-Patch configured -- resuming normal operations
+[Tue Feb 22 10:34:54 2022] [error] [client 192.168.48.1] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'192.168.48.4' (using password: NO) in /var/www/html/index.php on line 34
+[Tue Feb 22 10:34:54 2022] [error] [client 192.168.48.1] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /var/www/html/index.php on line 44
+[Tue Feb 22 10:34:54 2022] [error] [client 192.168.48.1] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'192.168.48.4' (using password: NO) in /var/www/html/index.php on line 34
+[Tue Feb 22 10:34:54 2022] [error] [client 192.168.48.1] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /var/www/html/index.php on line 44
+[Tue Feb 22 10:34:55 2022] [error] [client 192.168.48.1] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'192.168.48.4' (using password: NO) in /var/www/html/index.php on line 34
+[Tue Feb 22 10:34:55 2022] [error] [client 192.168.48.1] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /var/www/html/index.php on line 44
+[Tue Feb 22 10:34:55 2022] [error] [client 192.168.48.1] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'192.168.48.4' (using password: NO) in /var/www/html/index.php on line 34
+[Tue Feb 22 10:34:55 2022] [error] [client 192.168.48.1] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /var/www/html/index.php on line 44
+[Tue Feb 22 10:34:58 2022] [error] [client 192.168.48.1] File does not exist: /var/www/html/test
+[Tue Feb 22 10:35:24 2022] [notice] caught SIGTERM, shutting down
+apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.80.4 for ServerName
+[Tue Feb 22 10:35:53 2022] [notice] Apache/2.2.22 (Ubuntu) PHP/5.3.10-1ubuntu3.48 with Suhosin-Patch configured -- resuming normal operations
+[Tue Feb 22 10:36:16 2022] [error] [client 192.168.80.1] PHP Notice:  Undefined variable: conn in /var/www/html/test/index.php on line 20
+[Tue Feb 22 10:36:16 2022] [error] [client 192.168.80.1] PHP Fatal error:  Call to a member function prepare() on a non-object in /var/www/html/test/index.php on line 20
+[Tue Feb 22 10:36:37 2022] [error] [client 192.168.80.1] PHP Notice:  Undefined variable: conn in /var/www/html/test/index.php on line 20
+[Tue Feb 22 10:36:37 2022] [error] [client 192.168.80.1] PHP Fatal error:  Call to a member function prepare() on a non-object in /var/www/html/test/index.php on line 20
+[Tue Feb 22 10:37:35 2022] [error] [client 192.168.80.1] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'docker.test' doesn't exist' in /var/www/html/test/index.php:21\nStack trace:\n#0 /var/www/html/test/index.php(21): PDOStatement->execute()\n#1 {main}\n  thrown in /var/www/html/test/index.php on line 21
+[Tue Feb 22 10:37:36 2022] [error] [client 192.168.80.1] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'docker.test' doesn't exist' in /var/www/html/test/index.php:21\nStack trace:\n#0 /var/www/html/test/index.php(21): PDOStatement->execute()\n#1 {main}\n  thrown in /var/www/html/test/index.php on line 21
+[Tue Feb 22 10:47:06 2022] [notice] caught SIGTERM, shutting down
+apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.5 for ServerName
+[Tue Feb 22 11:02:09 2022] [notice] Apache/2.2.22 (Ubuntu) PHP/5.3.10-1ubuntu3.48 with Suhosin-Patch configured -- resuming normal operations
+[Tue Feb 22 11:12:42 2022] [notice] caught SIGTERM, shutting down
+apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.112.4 for ServerName
+[Tue Feb 22 11:13:20 2022] [notice] Apache/2.2.22 (Ubuntu) PHP/5.3.10-1ubuntu3.48 with Suhosin-Patch configured -- resuming normal operations
+[Tue Feb 22 11:18:29 2022] [notice] caught SIGTERM, shutting down
+apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.128.5 for ServerName
+[Tue Feb 22 11:23:02 2022] [notice] Apache/2.2.22 (Ubuntu) PHP/5.3.10-1ubuntu3.48 with Suhosin-Patch configured -- resuming normal operations
+[Tue Feb 22 11:25:27 2022] [notice] caught SIGTERM, shutting down
+apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.144.5 for ServerName
+[Tue Feb 22 11:39:58 2022] [notice] Apache/2.2.22 (Ubuntu) PHP/5.3.10-1ubuntu3.48 with Suhosin-Patch configured -- resuming normal operations
+[Tue Feb 22 11:49:15 2022] [notice] caught SIGTERM, shutting down
+apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.160.5 for ServerName
+[Tue Feb 22 11:52:01 2022] [notice] Apache/2.2.22 (Ubuntu) PHP/5.3.10-1ubuntu3.48 with Suhosin-Patch configured -- resuming normal operations
+[Tue Feb 22 12:06:58 2022] [notice] caught SIGTERM, shutting down
+apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.176.5 for ServerName
+[Tue Feb 22 12:08:13 2022] [notice] Apache/2.2.22 (Ubuntu) PHP/5.3.10-1ubuntu3.48 with Suhosin-Patch configured -- resuming normal operations
+[Tue Feb 22 12:10:19 2022] [notice] caught SIGTERM, shutting down
+apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.192.4 for ServerName
+[Tue Feb 22 12:14:46 2022] [notice] Apache/2.2.22 (Ubuntu) PHP/5.3.10-1ubuntu3.48 with Suhosin-Patch configured -- resuming normal operations
+[Tue Feb 22 12:20:57 2022] [notice] caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.208.4. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 22 12:31:55.816889 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.2 configured -- resuming normal operations
+[Tue Feb 22 12:31:55.818549 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Feb 22 12:34:26.881344 2022] [php7:notice] [pid 27] [client 192.168.208.1:54918] SQLSTATE[HY000] [2002] No such file or directory (SQL: create table `announcement_types` (`type_id` bigint not null auto_increment primary key, `assoc_type` smallint not null, `assoc_id` bigint not null) default character set utf8 collate 'utf8_general_ci'), referer: http://localhost:81/ojs/index.php/index/install
+[Tue Feb 22 12:35:31.865596 2022] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.224.5. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 22 12:36:00.662968 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.2 configured -- resuming normal operations
+[Tue Feb 22 12:36:00.663702 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Feb 22 12:37:33.473524 2022] [php7:notice] [pid 18] [client 192.168.224.1:54962] SQLSTATE[HY000] [2002] Cannot assign requested address (SQL: create table `announcement_types` (`type_id` bigint not null auto_increment primary key, `assoc_type` smallint not null, `assoc_id` bigint not null) default character set utf8 collate 'utf8_general_ci'), referer: http://localhost:81/ojs/index.php/index/install/install
+[Tue Feb 22 12:40:05.438537 2022] [php7:notice] [pid 20] [client 192.168.224.1:54972] SQLSTATE[HY000] [2002] No such file or directory (SQL: create table `announcement_types` (`type_id` bigint not null auto_increment primary key, `assoc_type` smallint not null, `assoc_id` bigint not null) default character set utf8 collate 'utf8_general_ci'), referer: http://localhost:81/ojs/index.php/index/install/install
+[Tue Feb 22 12:46:40.501133 2022] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.240.4 for ServerName
+[Tue Feb 22 12:47:18 2022] [notice] Apache/2.2.22 (Ubuntu) PHP/5.3.10-1ubuntu3.48 with Suhosin-Patch configured -- resuming normal operations
+[Tue Feb 22 12:56:48 2022] [notice] caught SIGTERM, shutting down
+apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.240.4 for ServerName
+[Tue Feb 22 12:56:51 2022] [notice] Apache/2.2.22 (Ubuntu) PHP/5.3.10-1ubuntu3.48 with Suhosin-Patch configured -- resuming normal operations
+[Tue Feb 22 13:06:05 2022] [notice] caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.240.4. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 22 13:07:15.404329 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.2 configured -- resuming normal operations
+[Tue Feb 22 13:07:15.412678 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
