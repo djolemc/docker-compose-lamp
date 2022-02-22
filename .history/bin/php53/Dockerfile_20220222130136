@@ -13,8 +13,6 @@ RUN printf "deb http://old-releases.ubuntu.com/ubuntu/ precise main restricted\n
 RUN apt-get update && \
     apt-get install -y \
       apache2 \
-      curl \
-      mc \
       php5 \
       php5-cli \
       libzip-dev \
@@ -27,9 +25,6 @@ RUN apt-get update && \
       php5-imap \
       php5-tidy \
       php5-curl
-
-# Composer
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 
 COPY apache_default /etc/apache2/sites-available/default
